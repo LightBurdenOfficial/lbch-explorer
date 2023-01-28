@@ -22,14 +22,14 @@ A LBCH blockchain explorer web application service for [LBChcore Node](https://g
 4. Install lbchcore-node  
 
     ```bash
-    npm i https://github.com/LightBurdenOfficial/lbchcore-node.git#master
+    npm i https://github.com/LightBurdenOfficial/lbchcore-node.git#main
 
     $(npm bin)/lbchcore-node create mynode
 
     cd mynode
 
-    $(npm bin)/lbchcore-node install https://github.com/LightBurdenOfficial/insight-api.git#master
-    $(npm bin)/lbchcore-node install https://github.com/LightBurdenOfficial/lbch-explorer.git#master
+    $(npm bin)/lbchcore-node install https://github.com/LightBurdenOfficial/insight-api.git#main
+    $(npm bin)/lbchcore-node install https://github.com/LightBurdenOfficial/lbch-explorer.git#main
     ```  
 5. Edit lbchcore-node.json  
 
